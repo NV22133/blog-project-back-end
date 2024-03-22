@@ -1,11 +1,9 @@
 {
-  "name": "blog-project-back-end",
+  "name": "backend-blog-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node -r esm server.js",
     "dev": "nodemon -r esm server.js"
   },
@@ -13,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.3",
     "esm": "^3.2.25",
     "express": "^4.18.2",
-    "mongodb": "^6.5.0",
-    "mongoose": "^6.9.2",
-    "nodemon": "^3.1.0"
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2"
   }
 }
