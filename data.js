@@ -1,1 +1,3 @@
-export const my_namme = "mohammed"
+export const my_name = "mohammed";
+
+import {my_name} from './data'
